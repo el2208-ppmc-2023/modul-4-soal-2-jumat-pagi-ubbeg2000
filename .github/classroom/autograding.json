@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "2 2\r\n5 0 3 7\r\n3 -7 2 0",
+      "output": "Matriks merupakan matriks cantik genap",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "3 3\r\n3 0 2 -1 0 -5\r\n2 1 0 0 9 -5\r\n0 5 9 5 6 0",
+      "output": "Matriks merupakan matriks cantik genap",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "4 4\r\n2 0 1 1 9 2 0 0\r\n1 -1 5 0 4 6 3 -2\r\n9 -2 4 -6 10 0 1 7\r\n0 0 3 2 1 -7 4 0",
+      "output": "Matriks merupakan matriks cantik genap",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "5 5\r\n0 0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0 0",
+      "output": "Matriks merupakan matriks cantik genap dan matriks cantik ganjil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "2 2 \r\n0 5 3 -2\r\n-3 -2 0 1",
+      "output": "Matriks merupakan matriks cantik ganjil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "3 3\r\n0 0 -1 -1 2 0\r\n1 -1 0 3 0 1\r\n-2 0 0 1 0 0",
+      "output": "Matriks merupakan matriks cantik ganjil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "3 3\r\n0 1 -1 0 -4 0\r\n1 0 0 -5 -3 -2\r\n4 0 3 -2 0 5",
+      "output": "Matriks merupakan matriks cantik ganjil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "3 3\r\n0 -1 2 1 2 0\r\n-2 1 0 2 3 1\r\n-2 0 -3 1 0 -5",
+      "output": "Matriks merupakan matriks cantik ganjil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "5 5\r\n1 2 3 4 5\r\n1 2 3 4 5\r\n6 7 8 9 10\r\n11 12 13 14 15\r\n0 4 2 1 2",
+      "output": "Matriks bukan merupakan keduanya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "3 4\r\n1 2 3 4\r\n1 2 3 4\r\n1 2 3 4\r\n1 2 3 4",
+      "output": "Matriks bukan merupakan keduanya",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
